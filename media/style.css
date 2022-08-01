@@ -1,0 +1,286 @@
+@media (min-width:320px) and (max-width: 560px) {
+    .navbar-light .navbar-toggler {
+        background-color: #8f5787;
+    }
+    .navbar-light .navbar-toggler:focus {
+        outline: none!important;
+    }
+    .banner {
+        justify-content: space-between;
+    }
+    header {
+        margin-bottom: 50px;
+        background-color: white
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    #navbarSupportedContent {
+        min-height: 40vh;
+        overflow: hidden;
+    }
+    .span-yoga-nidra-logo {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .container-banner,
+    .yoga-nidra-curses-banner,
+    .yoga-nidra-effect-banner,
+    .yoga-nidra-how-do-banner {
+        padding-bottom: 20px;
+    }
+    .yoga-nidra-curses-banner h3,
+    .yoga-nidra-how-do-banner h3,
+    .yoga-nidra-questions-banner h3,
+    .yoga-nidra-slide-banner h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .practik-list li,
+    .get-list li {
+        font-size: 16px;
+    }
+    .yoga-nidra-sale-banner p {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .slide-comments {
+        margin-top: 10px!important;
+    }
+    #carouselExampleIndicators {
+        padding: 0px;
+    }
+    .carousel-item {
+        width: 70%;
+    }
+    .carousel-item p {
+        font-size: 13px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    footer span,
+    footer span a {
+        font-size: 14px;
+    }
+    footer .col-md-4 {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #8f5787;
+        font-weight: bold;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #8f5787;
+    }
+    .nav-link-cabinet {
+        background: #8f5787;
+        color: white!important;
+        text-align: center;
+    }
+    .yoga-nidra-banner,
+    .yoga-nidra-effect-banner,
+    .yoga-nidra-practic-get-banner,
+    .yoga-nidra-sale-banner {
+        justify-content: center;
+        background-size: cover;
+    }
+    .btn-try {
+        display: block;
+    }
+    #accordion .card-link,
+    #accordion .card-body {
+        font-size: 12px;
+    }
+    #accordion .card-link::after {
+        top: -2px;
+        right: -8px;
+        font-size: 20px;
+    }
+    .yoga-nidra-how-do-banner .card {
+        max-height: 100%;
+    }
+}
+
+@media (min-width:400px) and (max-width: 575px) {
+    .yoga-nidra-curses-banner img {
+        object-fit: cover;
+        height: 80px;
+        width: 167px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+    .yoga-nidra-curses-banner img {
+        object-fit: cover;
+        height: 64px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .yoga-nidra-curses-banner .card {
+        height: 185px;
+        padding: 0px 10px 10px;
+    }
+    .yoga-nidra-curses-banner .card-content {
+        margin-top: 0;
+    }
+}
+
+@media (min-width:561px) and (max-width: 768px) {
+    .yoga-nidra-how-do-banner img {
+        object-fit: contain;
+    }
+    .img-new {
+        margin-top: 25px;
+    }
+    .pText-img {
+        margin-top: -2px;
+    }
+    .img-new {
+        margin-top: 2px;
+    }
+    .yoga-nidra-how-do-banner .card {
+        max-height: inherit;
+        height: 300px;
+        justify-content: start;
+        padding: 10px 10px;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #8f5787;
+    }
+    .navbar-light .navbar-toggler:focus {
+        outline: none!important;
+    }
+    .banner {
+        justify-content: space-between;
+    }
+    header {
+        margin-bottom: 50px;
+        background-color: white
+    }
+    .logo {
+        width: 200px;
+    }
+    .container-banner,
+    .yoga-nidra-curses-banner,
+    .yoga-nidra-effect-banner,
+    .yoga-nidra-how-do-banner,
+    .yoga-nidra-sale-banner,
+    .yoga-nidra-sale-banner {
+        padding-bottom: 20px;
+    }
+    .yoga-nidra-curses-banner h3,
+    .yoga-nidra-how-do-banner h3,
+    .yoga-nidra-questions-banner h3,
+    .yoga-nidra-slide-banner h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .slide-comments {
+        margin-top: 10px!important;
+    }
+    #carouselExampleIndicators {
+        padding: 0px;
+    }
+    .carousel-item {
+        width: 70%;
+    }
+    .carousel-item p {
+        font-size: 13px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #8f5787;
+        font-weight: bold;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #8f5787;
+    }
+    .nav-link-cabinet {
+        background: #8f5787;
+        color: white!important;
+        text-align: center;
+    }
+    .yoga-nidra-curses-banner .card-content p {
+        font-size: 14px;
+    }
+    footer span,
+    footer span a {
+        font-size: 12px;
+    }
+    .footer-span-pay {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 991px) {
+    .yoga-nidra-curses-banner .card {
+        height: 272px;
+    }
+    header {
+        margin-bottom: 50px;
+        background-color: white
+    }
+    .logo {
+        width: 200px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #8f5787;
+        font-weight: bold;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #8f5787;
+    }
+    .nav-link-cabinet {
+        background: #8f5787;
+        color: white!important;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler:focus {
+        outline: none!important;
+    }
+    .banner {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .logo {
+        width: 180px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .container-banner,
+    .yoga-nidra-curses-banner,
+    .yoga-nidra-effect-banner,
+    .yoga-nidra-how-do-banner,
+    .yoga-nidra-sale-banner,
+    .yoga-nidra-sale-banner {
+        padding-bottom: 20px;
+    }
+    footer span,
+    footer span a {
+        font-size: 12px;
+    }
+    .footer-span-pay {
+        margin-top: 10px;
+    }
+    .yoga-nidra-banner,
+    .yoga-nidra-effect-banner,
+    .yoga-nidra-practic-get-banner,
+    .yoga-nidra-sale-banner {
+        justify-content: center;
+        background-size: cover;
+    }
+    .btn-try {
+        display: block;
+    }
+}

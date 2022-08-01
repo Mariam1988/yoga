@@ -1,0 +1,546 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #201600;
+}
+
+.wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.banner {
+    background: url(../img/banner.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: start;
+}
+
+.container-banner h2 {
+    line-height: 40px;
+}
+
+.container-banner p {
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    color: white;
+    border: 2px solid transparent;
+    transition: .3s ease-in-out;
+    margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid #8f5787;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
+.nav-link-cabinet {
+    background: #8f5787;
+}
+
+.nav-link-cabinet:hover {
+    background-color: white;
+    color: #8f5787!important;
+    border-bottom: none!important;
+}
+
+.container-banner .btn-try {
+    background: #8f5787;
+    padding: 10px 60px;
+    color: White;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: .3s ease-in-out;
+}
+
+.container-banner .btn-try:hover {
+    background-color: white;
+    color: #8f5787!important;
+    border-bottom: none!important;
+}
+
+.yoga-nidra-banner {
+    background: url(../img/yoga-nidra.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-attachment: fixed;
+    z-index: 99999;
+}
+
+.span-yoga-nidra-first {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #201600;
+    display: block;
+}
+
+.yoga-nidra-banner p {
+    color: #201600;
+    font-size: 18px;
+}
+
+.span-yoga-nidra-logo {
+    color: #8f5787;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.yoga-nidra-curses-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid #9a9a99;
+    border-bottom: 1px solid #9a9a99;
+    padding-bottom: 50px;
+}
+
+.yoga-nidra-curses-banner h3 {
+    color: #201600;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.yoga-nidra-curses-banner .card {
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: -3px 8px 7px rgb(119 91 0 / 16%), -4px 6px 1px rgb(119 91 0 / 16%), 0px 8px 19px rgb(119 91 0 / 12%), 0px 4px 13px rgb(119 91 0 / 12%), 0px 2px 4px rgb(119 91 0 / 8%), 0px 1px 8px rgb(119 91 0 / 8%);
+    transition: box-shadow .25s;
+    border: 1px solid #d5a81a;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px 20px 20px
+}
+
+.yoga-nidra-curses-banner .card:hover {
+    box-shadow: 4px 13px 13px 3px rgb(119 91 0 / 16%), -4px 6px 1px rgb(119 91 0 / 16%), 0px 8px 19px rgb(119 91 0 / 12%), 0px 4px 13px rgb(119 91 0 / 12%), 2px 11px 4px rgb(119 91 0 / 8%), 0px 1px 8px rgb(119 91 0 / 8%);
+}
+
+
+/* .yoga-nidra-curses-banner .img-card {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: block;
+    overflow: hidden;
+} */
+
+.yoga-nidra-curses-banner img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    transition: all .25s ease;
+}
+
+.yoga-nidra-curses-banner .card-content p {
+    margin-bottom: 0!important;
+    color: #201600;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card5-img {
+    height: 79px;
+    width: 120px;
+}
+
+.yoga-nidra-effect-banner {
+    background: url(../img/yoga-nidra-effect.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid #9a9a99;
+    background-attachment: fixed;
+    z-index: 99999;
+}
+
+.yoga-nidra-effect-banner.container {
+    margin-left: 0;
+}
+
+.yoga-nidra-effect-banner .btn-try {
+    background: #8f5787;
+    padding: 10px 60px;
+    color: White;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+.yoga-nidra-effect-banner .btn-try:hover {
+    background-color: white;
+    color: #8f5787!important;
+    border: 2px solid #8f5787;
+}
+
+.img-yoga-nidra-effect {
+    width: auto;
+    height: 100vh;
+    transform: rotate3d(0, -180, 0, 180deg);
+}
+
+.span-yoga-nidra-logo {
+    color: #8f5787;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.yoga-nidra-effect-banner h3 {
+    font-weight: 700;
+}
+
+.yoga-nidra-effect-banner p {
+    color: #201600;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.yoga-nidra-how-do-banner .card {
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 2px 0px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    transition: box-shadow .25s;
+    border: 1px solid #dee2e6;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 20px;
+    min-height: 274px;
+    overflow: hidden;
+    box-shadow: 1px 12px 3px 3px #dee2e642, 10px 1px 9px rgb(119 91 0 / 16%), 11px 3px 8px rgb(119 91 0 / 12%), 0px 8px 48px rgb(119 91 0 / 12%), 0px 4px 8px rgb(119 91 0 / 8%), 3px 9px 11px rgb(119 91 0 / 8%);
+}
+
+.yoga-nidra-how-do-banner {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #9a9a99;
+}
+
+.yoga-nidra-how-do-banner h3 {
+    color: #201600;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.yoga-nidra-how-do-banner .card:hover {
+    box-shadow: 3px 5px 3px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.yoga-nidra-how-do-banner .card-content {
+    padding-top: 20px;
+}
+
+.yoga-nidra-how-do-banner .card-content p {
+    margin-bottom: 0!important;
+    color: #201600;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.yoga-nidra-how-do-banner img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: all .25s ease;
+}
+
+.logo {
+    width: 280px;
+}
+
+.yoga-nidra-practic-get-banner {
+    background: url(../img/yoga-nidra-practic.jpg);
+    min-height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-attachment: fixed;
+    z-index: 99999;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.yoga-nidra-practic-get-banner h4 {
+    margin-bottom: 15px;
+}
+
+.practik-list li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.practik-list {
+    margin-bottom: 27px;
+}
+
+.get-list li {
+    font-size: 18px;
+    margin-left: 20px
+}
+
+.yoga-nidra-questions-banner {
+    border-top: 1px solid #9a9a99;
+    border-bottom: 1px solid #9a9a99;
+}
+
+.yoga-nidra-questions-banner h3 {
+    color: #201600;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#accordion .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#accordion .card {
+    background: #8f5787;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-shadow: 1px 5px 3px 0 rgb(143 87 135 / 45%), 2px 3px 6px 6px rgb(143 87 135 / 13%);
+}
+
+#accordion .card-link {
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+#accordion .card-link::after {
+    content: ">";
+    position: absolute;
+    top: -2px;
+    right: 0;
+    transform: rotate(90deg);
+    font-size: 24px;
+}
+
+#accordion .collapse {
+    border-top: 1px solid white;
+}
+
+.yoga-nidra-sale-banner {
+    background: url(../img/yoga-nidra-sale.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid #9a9a99;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+.yoga-nidra-sale-banner h3 {
+    font-weight: 700;
+    margin-top: 65px;
+}
+
+.yoga-nidra-sale-banner p {
+    color: #201600;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.yoga-nidra-sale-banner .btn-try {
+    background: #8f5787;
+    padding: 10px 60px;
+    color: White;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+.yoga-nidra-sale-banner .btn-try:hover {
+    background-color: white;
+    color: #8f5787!important;
+    border: 2px solid #8f5787;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 2px;
+    position: relative;
+    top: 30px;
+}
+
+.carousel-indicators li.active {
+    background: 8f5787;
+}
+
+.carousel-indicators {
+    padding-bottom: 10px;
+}
+
+.yoga-nidra-slide-banner h3 {
+    color: #201600;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-item img {
+        height: auto;
+    }
+}
+
+#carouselExampleIndicators {
+    border: 2px solid #8f5787;
+    padding: 30px;
+    text-align: start;
+    background: #8f5787;
+    color: white;
+    box-shadow: 2px 7px 11px rgb(26 26 26 / 16%), -3px 8px 3px rgb(26 26 26 / 16%), -2px 7px 10px rgb(26 26 26 / 12%), 0px 12px 17px rgb(26 26 26 / 12%), 0px 10px 16px rgb(26 26 26 / 10%), 0px 8px 10px rgb(26 26 26 / 8%), 0px 6px 6px rgb(26 26 26 / 6%), 0px 4px 4px rgb(26 26 26 / 4%);
+    border-radius: 7px;
+}
+
+.carousel-item span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+    padding-top: 10px;
+}
+
+.carousel-item {
+    width: 70%;
+    margin: auto;
+}
+
+footer {
+    background: #f0eee0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer span,
+footer span a {
+    display: block;
+    color: #3c403f;
+    font-weight: 600;
+}
+
+.footer-span-pay {
+    margin-top: 20px;
+}
+
+.footer-icons,
+.footer-icons-pay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-icons img,
+.footer-icons-pay img {
+    margin-right: 10px;
+    width: 35px;
+}
+
+.card-mg-box {
+    background: pink;
+    width: 100%;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: initial;
+    position: relative;
+}
+
+.card-mg-box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: all .25s ease;
+    border: 2px solid;
+    /* position: absolute;
+    top: -134%;
+    right: 40%; */
+    /* height: 526px;
+    z-index: 2; */
+}
+
+.img-sec div {
+    border: 2px solid;
+    width: 250px;
+    height: 250px;
+}
+
+.img-sec div img {
+    width: 100%;
+    height: auto;
+}

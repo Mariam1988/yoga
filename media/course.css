@@ -1,0 +1,378 @@
+@media (min-width:320px) and (max-width: 560px) {
+    .row {
+        margin-top: 20px;
+    }
+    .yoga-tittle {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: -20px;
+    }
+    .container-card-day .col-12 {
+        margin-bottom: 20px;
+    }
+    .material-tittle {
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .material-banner .btn {
+        margin: auto;
+        width: 100%;
+    }
+    .chartBox {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .inputdesign,
+    #myTextBoxResult,
+    #myTextBoxResult2,
+    #myTextBoxResult2,
+    #myTextBoxResultWater,
+    #myTextBoxResultCount {
+        width: 100%;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .chart-btn {
+        display: flex;
+        font-size: 12px;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .img-chart {
+        display: none;
+    }
+    .parametr-banner .inputBox {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .parametr-banner form {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .parametr-banner select,
+    #myListFatigue,
+    #myListCount {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    #myListFatigue,
+    #myListEnergy,
+    #myListFatigue,
+    #myListCount {
+        margin-top: 10px;
+    }
+    .inputBox-select {
+        flex-direction: column!important;
+    }
+    .material-banner .span {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .span-material,
+    #myListSleep,
+    #myListWater {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .material-banner .span {
+        margin-top: 10px;
+    }
+    .row-img-grafik {
+        flex-direction: column-reverse;
+    }
+    #background-text {
+        max-width: 85%;
+        padding: 38px;
+        width: 100%;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    .conteneur-flexbox {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .material-tittle {
+        font-size: 15px;
+    }
+    .yoga-tittle {
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0;
+    }
+    .container-card-day .card {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:561px) and (max-width: 768px) {
+    .chartBox:last-child {
+        margin-top: 10px;
+    }
+    .container-card-day .col-12 {
+        margin: auto;
+    }
+    .card-img-box {
+        height: 141px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .container-card-day .btn {
+        font-size: 14px;
+    }
+    .container-card-day .card.after {
+        height: 260px;
+    }
+    .container-card-day .card {
+        margin-bottom: 20px;
+    }
+    .yoga-tittle {
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .chartBox {
+        padding: 10px;
+    }
+    .inputdesign,
+    #myTextBoxResult,
+    #myTextBoxResult2,
+    #myTextBoxResult2,
+    #myTextBoxResultWater,
+    #myTextBoxResultCount {
+        width: 100%;
+        font-size: 12px;
+    }
+    .inputBox-select {
+        width: 100%;
+    }
+    .parametr-banner .inputBox {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .chart-btn {
+        display: flex;
+        font-size: 12px;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .parametr-banner form {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .parametr-banner select {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    #myListFatigue,
+    #myListEnergy,
+    #myListCount,
+    #myListSleep,
+    #myListWater {
+        margin-top: 10px;
+    }
+    .inputBox-select {
+        flex-direction: column!important;
+    }
+    .material-banner .span,
+    .span-material {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .wrapper {
+        padding: 50px;
+    }
+    .row {
+        margin-top: 0;
+    }
+    .conteneur-flexbox {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row-img-grafik {
+        flex-direction: column-reverse;
+    }
+    #background-text {
+        font-size: 18px;
+    }
+    .material-tittle {
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 830px) {
+    .inputBox-select {
+        flex-direction: column!important;
+    }
+    .container-card-day .card {
+        margin-bottom: 20px;
+    }
+    .yoga-tittle {
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0;
+    }
+    .yoga-tittle {
+        margin-bottom: 20px;
+    }
+    #myListFatigue,
+    #myListEnergy {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .inputBox-select .chart-btn {
+        margin-top: 20px;
+    }
+    .wrapper {
+        padding: 50px;
+    }
+    .row {
+        margin-top: 0;
+    }
+    .conteneur-flexbox {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #myTextBoxResult2,
+    #myTextBoxResultWater,
+    #myTextBoxResultCount {
+        width: auto;
+    }
+    .inputBox select {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .parametr-banner .inputBox {
+        justify-content: center;
+        width: 100%;
+        max-width: 60%;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .parametr-banner select {
+        margin-left: 0;
+    }
+    .inputBox-select .chart-btn {
+        margin-left: 0;
+    }
+    .chartBox {
+        margin-bottom: 20px;
+    }
+    .row-img-grafik {
+        flex-direction: column-reverse;
+    }
+    .logo {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (min-width:831px) and (max-width: 991px) {
+    .row-img-grafik {
+        flex-direction: column-reverse;
+    }
+    .wrapper {
+        padding: 50px;
+    }
+    .row {
+        margin-top: 0;
+    }
+    .logo {
+        width: 66%;
+        height: auto;
+    }
+    .chartBox:last-child {
+        margin-top: 20px;
+    }
+    .conteneur-flexbox {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1024px) {
+    .parametr-banner .inputBox {
+        flex-direction: column;
+    }
+    .inputBox select {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .parametr-banner .inputBox {
+        justify-content: center;
+        width: 100%;
+        max-width: 60%;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .parametr-banner select {
+        margin-left: 0;
+    }
+    .inputBox-select .chart-btn {
+        margin-left: 0;
+    }
+    .chartBox {
+        margin-bottom: 20px;
+    }
+    .inputBox-select .chart-btn {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1335px) {
+    #myTextBoxResult2,
+    #myTextBoxResultWater,
+    #myTextBoxResultCount {
+        width: auto;
+    }
+    .inputBox select {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .parametr-banner .inputBox {
+        justify-content: center;
+        width: 100%;
+        max-width: 60%;
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .chart-btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .parametr-banner select {
+        margin-left: 0;
+    }
+}
